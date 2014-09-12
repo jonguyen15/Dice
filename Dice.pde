@@ -44,29 +44,25 @@ class Die //models one single dice cube
         if(dots==1)
         {
             ellipse(myX+25,myY+25,10,10);
-            System.out.println("dots: "+dots);
-        }
+                    }
         else if(dots==2)
         {
             ellipse(myX+7,myY+7,10,10);
             ellipse(myX+43,myY+43,10,10);
-            System.out.println("dots: "+dots);
-        }
+                    }
         else if(dots==3)
         {
             ellipse(myX+25,myY+25,10,10);
             ellipse(myX+7,myY+7,10,10);
             ellipse(myX+43,myY+43,10,10);
-            System.out.println("dots: "+dots);
-        }
+                    }
         else if(dots==4)
         {
             ellipse(myX+7,myY+7,10,10);
             ellipse(myX+43,myY+43,10,10);
             ellipse(myX+7,myY+43,10,10);
             ellipse(myX+43, myY+7,10,10);
-            System.out.println("dots: "+dots);
-        }
+                    }
         else if(dots==5) 
         {
             ellipse(myX+7,myY+7,10,10);
@@ -74,7 +70,7 @@ class Die //models one single dice cube
             ellipse(myX+7,myY+43,10,10);
             ellipse(myX+43, myY+7,10,10);
             ellipse(myX+25,myY+25,10,10);
-            System.out.println("dots: "+dots);    
+               
         }
         else if(dots==6)
         {
@@ -84,7 +80,6 @@ class Die //models one single dice cube
             ellipse(myX+43, myY+7,10,10);
             ellipse(myX+7, myY+25,10,10);
             ellipse(myX+43,myY+25,10,10);
-            System.out.println("dots: "+dots);
-        }    
+                    }    
     }
 }

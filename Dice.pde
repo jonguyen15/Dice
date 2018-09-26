@@ -4,7 +4,10 @@ void setup()
 }
 void draw()
 {
-	//your code here
+	int Die;
+	Die = 1;
+	Die.show();
+
 }
 void mousePressed()
 {
@@ -24,6 +27,7 @@ class Die //models one single dice cube
 	}
 	void show()
 	{
-		//your code here
+		fill((int) Math.random()*254);
+		rect();	
 	}
 }

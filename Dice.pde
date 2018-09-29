@@ -41,7 +41,7 @@ class Die
   }
   void show()
   {
-    fill(50,100,250);
+    fill(150,100,250);
     rect(myX,myY,50,50,20);
     fill(0);
     if(dieValue ==1){
